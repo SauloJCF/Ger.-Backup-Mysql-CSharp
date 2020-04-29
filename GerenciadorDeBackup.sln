@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorDeBackup2", "GerenciadorDeBackup2\GerenciadorDeBackup2.csproj", "{BBA7E46C-9C9C-480B-8728-4C9C74632628}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorDeBackup", "GerenciadorDeBackup\GerenciadorDeBackup.csproj", "{BBA7E46C-9C9C-480B-8728-4C9C74632628}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
