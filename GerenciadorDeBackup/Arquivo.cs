@@ -33,11 +33,12 @@ namespace GerenciadorDeBackup
             try
             {
                 string[] dados = File.ReadAllLines(caminho);
+                
                 byte[] bytesOrganizados = new byte[dados.Length];
                 int cont = 0;
                 foreach (string item in dados)
                 {
-                    bytesOrganizados[cont] = byte.Parse(item);
+                    bytesOrganizados[cont] = (byte)(Convert.ToChar(item));
                     cont++;
                 }
                 return bytesOrganizados;
@@ -58,7 +59,7 @@ namespace GerenciadorDeBackup
                 {
                     foreach (byte d in dadosCriptografados)
                     {
-                        sw.WriteLine(d);
+                        sw.WriteLine((char)d);
                         Console.WriteLine(d);
                     }
                 }
